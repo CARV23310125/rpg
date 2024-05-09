@@ -88,6 +88,7 @@ ActionResult Player::takeAction(vector<Enemy*> enemies) {
     cout<<"Choose an action"<<endl;
     cout<<"1. Attack"<<endl;
     cout<<"2. Flee"<<endl;
+    cout<<"3. See Stats"
     cin >> option;
     Character* target = nullptr;
     bool fleed = false;
